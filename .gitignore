@@ -1,0 +1,24 @@
+# Ignore generated runtime/install artifacts
+.cache/
+prj/
+_install_test/
+nb/
+downloaded_project/
+nodejs*/
+node-red3.x/
+node-red4.x/
+node-red-multi-install-result.json
+package.json
+package-lock.json
+npm-debug.log*
+
+# Keep pkg/ directory tracked (offline packages)
+# start-nr.bat is generated during install and may be tracked in install roots
+
+# Keep installer project files tracked
+!README.md
+!.gitignore
+!node-red-multi-install.ps1
+!01.download-nodejs.ps1
+!02.download-node-red.ps1
+!03.install-offline.ps1
