@@ -1,5 +1,6 @@
 # Ignore generated runtime/install artifacts
 .cache/
+pkg/
 prj/
 _install_test/
 nb/
@@ -12,7 +13,6 @@ package.json
 package-lock.json
 npm-debug.log*
 
-# Keep pkg/ directory tracked (offline packages)
 # start-nr.bat is generated during install and may be tracked in install roots
 
 # Keep installer project files tracked
